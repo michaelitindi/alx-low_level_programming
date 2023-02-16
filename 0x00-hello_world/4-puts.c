@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-/*This program creates a string prog and prints it out using puts*/
+/**
+ * main - Entry point
+ * Description: 'Printing prog using puts'
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
