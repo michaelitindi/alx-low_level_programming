@@ -4,17 +4,18 @@
 
 /**
  * main - Entry point
- * Description: 'checking the value of the last digit'
+ * Description: 'Printing the alphabet'
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
 char a = 'a';
-while (a < 'z')
+while (a <= 'z')
 {
 putchar(a);
 a++;
 }
+putchar('\n');
 return (0);
 }
