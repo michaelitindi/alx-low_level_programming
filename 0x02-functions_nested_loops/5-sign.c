@@ -3,7 +3,7 @@
 /**
  * print_sign - Entry point
  * @n: single letter
- * Description: function that checks the sign of the number 
+ * Description: function that checks the sign of the number
  * Return: (0) Always success
  */
 
