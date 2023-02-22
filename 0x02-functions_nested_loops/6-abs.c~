@@ -1,0 +1,23 @@
+#include "main.h"
+
+/**
+ * print_sign - Entry point
+ * @n: single letter
+ * Description: function that prints the absolute value of the number
+ * Return: (0) Always success
+ */
+
+int _abs(int n)
+{
+if (n < 0)
+{
+int p;
+p =(n * -1);
+_putchar('p');
+}
+else
+{
+_putchar('n');
+}
+return (0); 
+}
