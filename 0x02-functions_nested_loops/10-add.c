@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * print_sign - Entry point
- * @a,@b: two integers
- * Description: function that checks the sign of the number
+ * add - Entry point
+ * @a: integer
+ * @b: integer
+ * Description: function that adds two numbers
  * Return: sum
  */
 
 int add(int a, int b)
 {
-return(a + b);  
+return(a + b);
 }
