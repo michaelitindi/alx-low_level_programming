@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - check the code.
- *
+ * main - Entry point
+ * Description: Checks whether character is uppercase
  * Return: Always 0.
  */
 int main(void)
