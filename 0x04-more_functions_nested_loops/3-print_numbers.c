@@ -3,7 +3,7 @@
 
 
 /**
- * main - Entry point
+ * print_numbers - Entry point
  * Description: 'Printing 0 to 9 '
  * Return: void
  */
