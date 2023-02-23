@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_square - print square
- * @size: size of square in row/col units
+ * print_square - Entry point
+ * @size: size of square
  */
 void print_square(int size)
 {
