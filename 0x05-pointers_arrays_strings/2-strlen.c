@@ -4,6 +4,7 @@
  * _strlen - Entry point
  * @s: pointer variable
  * Description: function that counts length of string
+ * Return: length
  */
 
 int _strlen(char *s)
