@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <ctype.h>
+/**
+ * main - entry point
+ * @argc: integer
+ * @argv: array
+ * Description: function that adds  arguments
+ * Return: (0) Always success
+ */
+
+
+int main(int argc, char *argv[])
+{
+int i;
+for (i = 0; i < argc; i++)
+{
+if (argc < 1)
+{
+printf("0\n");
+}
+else if (!isdigit(argv[i]))
+{
+printf("Error\n");
+}
+else
+{
+int sum = sum + atoi(argv[i]);
+printf("%d\n", sum);
+}
+}
+return (0);
+}
