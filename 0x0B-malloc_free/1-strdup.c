@@ -20,7 +20,7 @@ if (str == 0)
 {
 return (0);
 }
-ptr = (char *) malloc(size * sizeof(char) + 1);
+ptr = (char *) malloc(size *sizeof(char) + 1);
 if (ptr == 0)
 {
 return (0);
