@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stddef.h>
 #include "main.h"
 /**
  * _strdup - Entry point
@@ -16,7 +17,7 @@ unsigned int i;
 unsigned int size;
 char *ptr;
 size = strlen(str);
-if (str == 0)
+if (*str == 0)
 {
 return (0);
 }
