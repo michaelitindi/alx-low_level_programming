@@ -26,13 +26,13 @@ if (ptr == 0)
 {
 return (0);
 }
-for (i = 0; str[i] != '\0'; i++)
+for (i = 0; i < size; i++)
 {
 ptr[i] = str[i];
 }
-ptr[i++] = '\0';
+ptr[size] = '\0';
 return (ptr);
-free (ptr);
+
 
 
 }
