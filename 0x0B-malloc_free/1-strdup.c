@@ -21,7 +21,7 @@ if (str == NULL)
 {
 return (NULL);
 }
-ptr = (char *) malloc(size *sizeof(char) + 1);
+ptr = (char *) malloc(size + 1);
 if (ptr == NULL)
 {
 return (NULL);
