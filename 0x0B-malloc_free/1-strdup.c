@@ -3,7 +3,7 @@
 #include <string.h>
 #include "main.h"
 /**
- * _puts_recursion - Entry point
+ * _strdup - Entry point
  * @str: character
  * Description: function that copies a string.
  * Return: pointer
@@ -20,7 +20,7 @@ if (str == 0)
 {
 return (0);
 }
-ptr = (char *) malloc(size * sizeof(char));
+ptr = (char *) malloc(size * sizeof(char) + 1);
 if (ptr == 0)
 {
 return (0);
