@@ -17,20 +17,20 @@ unsigned int i;
 unsigned int size;
 char *ptr;
 size = strlen(str);
-if (str == 0)
+if (str == NULL)
 {
-return (0);
+return (NULL);
 }
 ptr = (char *) malloc(size *sizeof(char) + 1);
-if (ptr == 0)
+if (ptr == NULL)
 {
-return (0);
+return (NULL);
 }
 for (i = 0; i < size; i++)
 {
 ptr[i] = str[i];
 }
-ptr[size] = '\0';
+ptr[i] = '\0';
 return (ptr);
 
 
