@@ -23,7 +23,7 @@ size++;
 }
 if (str == NULL)
 {
-return (NULL);
+str = "";
 }
 ptr = (char *) malloc(size + 1);
 if (ptr == NULL)
