@@ -34,9 +34,6 @@ for (i = 0; i < size; i++)
 {
 ptr[i] = str[i];
 }
-ptr[i] = '\0';
+ptr[size] = '\0';
 return (ptr);
-
-
-
 }
