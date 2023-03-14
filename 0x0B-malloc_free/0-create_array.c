@@ -20,7 +20,7 @@ if (size == 0)
 {
 return (0);
 }
-mal = (char*) malloc(size * sizeof(char));
+mal = (char *) malloc(size * sizeof(char));
 
 if (mal == 0)
 {
