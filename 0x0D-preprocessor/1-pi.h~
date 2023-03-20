@@ -1,4 +1,0 @@
-#ifndef PI
-#define PI
-#define PI 1024
-#endif
