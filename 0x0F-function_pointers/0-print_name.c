@@ -20,8 +20,7 @@ if (f == NULL)
 {
 return;
 }
-  
+
 (*f)(name);
 }
-
 #endif
