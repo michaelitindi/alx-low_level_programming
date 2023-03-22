@@ -1,5 +1,6 @@
 #ifndef PRINT_NAME
 #define PRINT_NAME
+#include <stdio.h>
 #include "function_pointers.h"
 
 /**
