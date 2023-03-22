@@ -12,11 +12,11 @@ while (x[i] != '\0')
 _putchar(x[i]);
 i++;
 }
+_putchar('\n');
 }
 
 
 void print_name(char *name, void (*f)(char *))
 {
-f = &printname_func;
 (*f)(name);
 }
