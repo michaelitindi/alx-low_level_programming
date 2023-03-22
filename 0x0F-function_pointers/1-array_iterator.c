@@ -17,7 +17,7 @@ if (array == 0 || size == 0 || action == NULL)
 return;
 }
 
-while(i < size)
+while (i < size)
 {
 (*action)(array[i]);
 i++;
