@@ -2,7 +2,7 @@
 #include <stdarg.h>
 
 /**
- * void print_numbers - prints numbers and strings
+ * print_numbers - prints numbers and strings
  * @separator: char
  * @n: integer
  * Return: void
