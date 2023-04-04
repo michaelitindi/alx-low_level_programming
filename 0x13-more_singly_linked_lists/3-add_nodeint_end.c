@@ -16,11 +16,10 @@ listint_t *node_y, *node_z;
 node_y = malloc(sizeof(listint_t));
 if (node_y == NULL)
 {
-return (NULL); 
+return (NULL);
 }
 node_y->n = n;
 node_y->next = NULL;
- 
 if (*head == NULL)
 {
 *head = node_y;
