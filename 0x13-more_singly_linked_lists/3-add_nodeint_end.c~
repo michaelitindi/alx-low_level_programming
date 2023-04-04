@@ -1,0 +1,22 @@
+
+
+
+
+
+listint_t *add_nodeint_end(listint_t **head, const int n)
+{
+listint_t *node_y = malloc(sizeof(listint_t));
+if (node_y == NULL)
+{
+return (NULL); 
+}
+node_y->n = n;
+node_y->next = NULL;
+ 
+if (*head == NULL)
+{
+
+}
+
+
+}
