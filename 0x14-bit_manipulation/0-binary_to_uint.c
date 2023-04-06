@@ -11,12 +11,10 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-int i,x;
-unsigned int sum, pow;
+int i;
+unsigned int sum;
 i = 0;
 sum = 0;
-pow = 0;
-x = 0;
 if (b == NULL)
 {
 return (0);
@@ -27,10 +25,8 @@ if (b[i] != '0' && b[i] != '1')
 {
 return (0);
 }
-x = (b[i]-'0') << pow;
-pow++;
+sum = (sum << 1) + (b[i] - '0');
 i++;
-sum += x;
 }
 return (sum);
 }
