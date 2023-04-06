@@ -29,7 +29,7 @@ return (0);
 }
 x = (b[i]-'0') << pow;
 pow++;
-i--;
+i++;
 sum += x;
 }
 return (sum);
