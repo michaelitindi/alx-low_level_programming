@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+ * flip_bits - returns no of bits needed to flip number
+ * @n: integer
+ * @m: integer
+ * Return: unsigned int
+ */
+
+unsigned int flip_bits(unsigned long int n, unsigned long int m)
+{
+unsigned long int x;
+unsigned int y;
+x = n ^ m;
+y = 0;
+while (x != 0)
+{
+y += x & 1;
+x >>= 1;
+}
+return (y);
+}
