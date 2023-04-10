@@ -35,6 +35,6 @@ close(f);
 return (-1);
 }
 }
-close (f);
+close(f);
 return (1);
 }
