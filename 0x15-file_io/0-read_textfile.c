@@ -18,7 +18,7 @@ if (filename == NULL)
 {
 return (0);
 }
-tx = fopen(filename,"r");
+tx = fopen(filename, "r");
 if (tx == NULL)
 {
 return (0);
