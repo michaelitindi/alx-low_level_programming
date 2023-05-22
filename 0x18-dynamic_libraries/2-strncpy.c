@@ -1,0 +1,26 @@
+#include "main.h"
+
+/**
+ * *_strncpy - Entry point
+ * @dest: pointer variable
+ * @src: pointer variable
+ * @n: integer
+ * Description: function that copies string
+ * Return: pointer
+ */
+
+char *_strncpy(char *dest, char *src, int n)
+{
+int i = 0;
+while (i < n && *src != '\0')
+{
+*dest++ = *src++;
+i++;
+}
+while (i < n)
+{
+*dest++ = '\0';
+i++;
+}
+return (dest - i);
+}
