@@ -30,6 +30,9 @@ if (new == NULL)
 {
 return (0);
 }
+new->key = strdup(key);
+new->value = strdup(value);
+new->next = NULL;
 current = ht->array[i];
 while (current != NULL)
 {
