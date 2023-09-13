@@ -35,7 +35,7 @@ size_t left;
 size_t right;
 size_t mid;
 left = 0;
-right = size-1;
+right = size - 1;
 if (!array)
 return (-1);
 
